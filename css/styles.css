@@ -72,9 +72,15 @@ p {
   display: flex;
   justify-content: space-between;
 }
-@media(max-width:700px){
-    img{
-        display: none;
-    }
-
+@media (max-width: 600px) {
+  #image {
+    display: none;
+  }
+  .container {
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .primary-links {
+    display: block;
+  }
 }
